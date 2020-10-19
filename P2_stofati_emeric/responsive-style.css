@@ -1,0 +1,88 @@
+@media all and (max-width: 1028px)
+{
+    html, body {
+        width: auto;
+        height: 100%;
+        font-family: 'Raleway', sans-serif;
+    }
+    .logoPicture {
+        width: 75%;
+    }
+    .link {
+        display: flex;
+    }
+    .register {
+        font-weight: bold;
+    }
+    .item-filters h3 {
+        margin-right: 3em;
+    }
+    .iconTitle {
+        display: flex;
+    }
+
+    /* MAIN */
+    #main {
+        display: flex;
+    }
+    .wrapper {
+        display: flow-root;
+    }
+    .accommodation {
+        -webkit-order: 2;
+        order: 2;
+        margin-right: auto;
+        background-color: white;
+    }
+    .famous {
+        -webkit-order: 1;
+        order: 1;
+    }
+    .wrapperAccommodation {
+        display: flow-root;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card {
+        width: auto;
+        border-radius: 1em;
+        box-shadow: 0px 0px 5px 5px #F2F2F2;
+    }
+    #activity .card {
+        background-color: white;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: 1.5em;
+        padding: .2em;
+        border-radius: 25px;
+        flex: 0 0 25%;
+    }
+    #activity .card img{
+        height: 150px;
+    }
+    .bigCard {
+        border-radius: 0em;
+    }
+    .bottomMiddle {
+        flex-direction: column;
+    }
+    .bottomMiddle .card {
+        box-shadow: 0.1em 0.1em 0.1em 0.1em #F2F2F2;
+    }
+    .activity-title{
+        margin-left: 1em;
+    }
+    /* FOOTER */
+    footer {
+        margin-top: 4em;
+        padding: .5em 2.5em;
+        background-color: #F2F2F2;
+    }
+    .footer {
+        display: flow-root;
+    }
+    .footer div {
+        margin-right: 0;
+    }
+}
