@@ -6,6 +6,8 @@ html, body {
 }
 .container {
     min-height: 100%;
+    margin: auto;
+    padding: .5em;
 }
 
 /* HEADER */
@@ -15,6 +17,9 @@ header .nav {
 	justify-content: space-between;
     flex-wrap: wrap;
     padding: .5em 2.5em;
+}
+#register {
+    font-weight: bold;
 }
 .main-nav ul {
 	margin: 1em 0 .5em;
@@ -40,17 +45,17 @@ a:hover {
     color:black;
     border-bottom: solid blue;
 }
-.logoPicture {
+#logoPicture {
     width: 25%;
 }
-.bottomHeader {
+#bottomHeader {
     padding: 0 2.5em;
 }
 h4 {
     font-weight: normal;
 }
 /* Style the input container */
-.input-container {
+#input-container {
     display: flex;
     width: 100%;
     margin-bottom: 15px;
@@ -65,17 +70,17 @@ h4 {
     text-align: center;
 }
 /* Style the input fields */
-.input-field {
+#input-field {
     border-left: none;
     border: .3px solid #F2F2F2;
     width: 25%;
     padding: 10px;
     outline: none;
 }
-.input-field:focus {
+#input-field:focus {
     border: 2px solid dodgerblue;
 }
-.colorBlue {
+#input-label {
     border-radius: 0 12px 12px 0;
     color: white;
     background-color: #0065FC;
@@ -85,17 +90,16 @@ h4 {
     color: black;
     font-weight: bold;
 }
-.item-filters {
+#item-filters {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-.item-filters h3 {
+#item-filters h3 {
     margin-right: 1.5em;
 }
-.item-filters a {
-    margin: 2em;
+#item-filters a {
     padding: .5em 1.5em .5em 3em;
     border: 2.5px solid #F2F2F2;
     border-radius: 50px;
@@ -105,12 +109,13 @@ h4 {
 .iconFilters {
     position: absolute;
     width: 40px;
-    height: 40px;
+    height: 27px;
     border-radius: 50%;
     background-color: #DEEBFF;
     margin-left: -3.5em;
     margin-top: -.65em;
     text-align: center;
+    padding-top: 0.8em;
 }
 .iconInfo {
     color: #0065FC;
@@ -126,14 +131,18 @@ main {
 	justify-content: space-between;
     flex-wrap: wrap;
 }
-.wrapper {
+#wrapper {
     display: flex;
 }
-.accommodation {
+#accommodation {
+    order: -1;
     margin-right: 2em;
     padding: 2em;
 }
 .fa {
+    display: inline!important;
+}
+.far {
     display: inline!important;
 }
 .famous {
@@ -158,7 +167,7 @@ main {
     border-radius: 25px;
     flex: 0 0 25%;
 }
-.wrapperAccommodation {
+#wrapperAccommodation {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
