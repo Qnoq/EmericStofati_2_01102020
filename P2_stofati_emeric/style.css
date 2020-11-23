@@ -37,13 +37,53 @@ a {
     text-decoration: none;
     color: #0065FC;
 }
-a:active {
-    color:black;
-    border-bottom: solid blue;
+.nav a:hover {
+    color: black;
 }
-a:hover {
-    color:black;
-    border-bottom: solid blue;
+.nav a:active {
+    color: black;
+}
+.hoverNavLink1 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 480px;
+    border-top: 2px solid blue;
+    width: 175px;
+}
+.hoverNavLink2 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 785px;
+    border-top: 2px solid blue;
+    width: 130px;
+}
+.hoverNavLink3 {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 1040px;
+    border-top: 2px solid blue;
+    width: 130px;
+}
+#linkAccommodation:hover ~ .hoverNavLink1 {
+    display: inline;
+}
+#linkActivity:hover ~ .hoverNavLink2 {
+    display: inline;
+}
+#register:hover ~ .hoverNavLink3 {
+    display: inline;
+}
+#linkAccommodation:active ~ .hoverNavLink1 {
+    display: inline;
+}
+#linkActivity:active ~ .hoverNavLink2 {
+    display: inline;
+}
+#register:active ~ .hoverNavLink3 {
+    display: inline;
 }
 #logoPicture {
     width: 25%;
@@ -139,6 +179,12 @@ main {
     margin-right: 2em;
     padding: 2em;
 }
+#accommodation a {
+    color: black;
+}
+#accommodation a:hover {
+    color: blue;
+}
 .fa {
     display: inline!important;
 }
@@ -154,6 +200,12 @@ main {
 }
 .famous h2 {
     text-align: left;
+}
+.famous a {
+    color: black;
+}
+.famous a:hover {
+    color: blue;
 }
 .bigCard {
     border-radius: 1em;
@@ -198,11 +250,6 @@ main {
     padding: .2em;
     border-radius: 25px;
 }
-.famousCard div {
-    padding-top: 1px;
-    margin-left: 2em;
-    margin-right: 12em;
-}
 .famousCard h5 {
     margin: auto;
     padding-left: 0.4em;
@@ -233,23 +280,23 @@ main {
 .bottomMiddle {
     display: flex;
 }
+#activity a {
+    color: black;
+}
+#activity a:hover {
+    color: blue;
+}
 .bottomMiddle .card {
     box-shadow: 0.1em 0.1em 0.1em 0.1em #F2F2F2;
 }
 .bottomMiddle h4 {
     padding-left: 0.5em;
 }
-.card-1 {
-    width: 250px;
-}
 .card-1 img {
-    height: 450px;
-}
-.card-2 {
-    width: 250px;
+    height: 435px;
 }
 .card-2 img {
-    height: 180px;
+    height: 150px;
 }
 .card-3 {
     margin-top: 3em;
@@ -258,13 +305,13 @@ main {
     height: 150px;
 }
 .card-4 img {
-    height: 450px;
+    height: 435px;
 }
 .card-5 {
     width: 250px;
 }
 .card-5 img {
-    height: 180px;
+    height: 150px;
 }
 .card-6 {
     margin-top: 3em;
@@ -281,9 +328,7 @@ footer {
 }
 .footer {
     display: flex;
-    justify-content: start;
 }
 .footer div {
     margin-right: auto;
 }
-  
