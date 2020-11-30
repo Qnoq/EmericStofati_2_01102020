@@ -1,7 +1,5 @@
 html, body {
     margin: auto;
-    width: 1200px;
-    height: 100%;
     font-family: 'Raleway', sans-serif;
 }
 .container {
@@ -43,47 +41,38 @@ a {
 .nav a:active {
     color: black;
 }
-.hoverNavLink1 {
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 480px;
-    border-top: 2px solid blue;
-    width: 175px;
+#linkAccommodation {
+    border-top: 1px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-.hoverNavLink2 {
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 785px;
-    border-top: 2px solid blue;
-    width: 130px;
+#linkAccommodation:hover {
+    border-top: 2px solid #0198fa;
+    padding: 50px 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-.hoverNavLink3 {
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 1040px;
-    border-top: 2px solid blue;
-    width: 130px;
+#linkActivity {
+    border-top: 1px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-#linkAccommodation:hover ~ .hoverNavLink1 {
-    display: inline;
+#linkActivity:hover {
+    border-top: 2px solid #0198fa;
+    padding: 50px 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-#linkActivity:hover ~ .hoverNavLink2 {
-    display: inline;
+#register {
+    border-top: 1px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
-#register:hover ~ .hoverNavLink3 {
-    display: inline;
-}
-#linkAccommodation:active ~ .hoverNavLink1 {
-    display: inline;
-}
-#linkActivity:active ~ .hoverNavLink2 {
-    display: inline;
-}
-#register:active ~ .hoverNavLink3 {
-    display: inline;
+#register:hover {
+    border-top: 2px solid #0198fa;
+    padding: 50px 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #logoPicture {
     width: 25%;
@@ -279,6 +268,8 @@ main {
 }
 .bottomMiddle {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #activity a {
     color: black;
@@ -295,10 +286,14 @@ main {
 .card-1 img {
     height: 435px;
 }
+.card-2 {
+    width: 250px;
+}
 .card-2 img {
     height: 150px;
 }
 .card-3 {
+    width: 250px;
     margin-top: 3em;
 }
 .card-3 img {
@@ -314,6 +309,7 @@ main {
     height: 150px;
 }
 .card-6 {
+    width: 250px;
     margin-top: 3em;
 }
 .card-6 img {
