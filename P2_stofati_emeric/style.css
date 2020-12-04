@@ -43,39 +43,30 @@ a {
 }
 #linkAccommodation {
     border-top: 1px solid transparent;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 #linkAccommodation:hover {
     border-top: 2px solid #0198fa;
     padding: 50px 0;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 #linkActivity {
     border-top: 1px solid transparent;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 #linkActivity:hover {
     border-top: 2px solid #0198fa;
     padding: 50px 0;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 #register {
     border-top: 1px solid transparent;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 #register:hover {
     border-top: 2px solid #0198fa;
     padding: 50px 0;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 #logoPicture {
-    width: 25%;
+    width: 10%;
 }
 #bottomHeader {
     padding: 0 2.5em;
@@ -134,6 +125,16 @@ h4 {
     border-radius: 50px;
     color: black;
     font-weight: bold;
+}
+#item-filters a:hover {
+    background-color: #0065FC;
+    color: white;
+    -webkit-transition:all 1s linear;
+}
+#item-filters a:focus {
+    background-color: #0065FC;
+    color: white;
+    -webkit-transition:all 1s linear;
 }
 .iconFilters {
     position: absolute;
