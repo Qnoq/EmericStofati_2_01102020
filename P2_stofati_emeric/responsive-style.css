@@ -25,22 +25,36 @@
     .link {
         display: flex;
     }
+    #inputLabel {
+        display: none;
+    }
+    #inputLabelIcon {
+        display: inline;
+        padding: 11px;
+        background-color: #0065FC;
+        border-radius: 10px;
+        text-decoration: none;
+        border: none;
+        color: white;
+    }
     #register {
         font-weight: bold;
         order: 1;
     }
-    #item-filters a {
+    #itemFilters a {
         margin-top: .8em;
         margin-bottom: .2em;
     }
-    #item-filters h3 {
+    #itemFilters h3 {
         margin-right: 3em;
     }
     .iconTitle {
         display: flex;
         margin-bottom: .2em;
     }
-    #input-field {
+    #inputField {
+        text-decoration: none;
+        border-right: none;
         width: 50%;
     }
     #linkAccommodation {
@@ -117,7 +131,7 @@
     .bottomMiddle .card {
         box-shadow: 0.1em 0.1em 0.1em 0.1em #F2F2F2;
     }
-    #activity-title{
+    #activityTitle{
         margin-left: 1em;
     }
     /* FOOTER */
@@ -159,22 +173,35 @@
     .link {
         display: flex;
     }
+    #inputLabel {
+        display: none;
+    }
+    #inputLabelIcon {
+        display: inline;
+        padding: 11px;
+        background-color: #0065FC;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
     #register {
         font-weight: bold;
         order: 1;
     }
-    #item-filters a {
+    #itemFilters a {
         margin-top: .8em;
         margin-bottom: .2em;
     }
-    #item-filters h3 {
+    #itemFilters h3 {
         margin-right: 3em;
     }
     .iconTitle {
         display: flex;
         margin-bottom: .2em;
     }
-    #input-field {
+    #inputField {
+        border-right: none;
+        text-decoration: none;
         width: 50%;
     }
     #linkAccommodation {
