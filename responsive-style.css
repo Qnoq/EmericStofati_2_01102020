@@ -12,10 +12,15 @@
         flex-wrap: wrap;
         padding: .5em 2.5em;
     }
+    header nav {
+        border-bottom: 3px solid #F2F2F2;
+    }
     #logoPicture {
+        position: relative;
         order: 1;
-        width: 25%;
-        padding-left: 2.5em;
+        width: 20%;
+        padding-left: 1.5em;
+        padding-top: 4px;
     }
     ::placeholder {
         color: black;
@@ -38,8 +43,11 @@
         color: white;
     }
     #register {
+        position: absolute;
         font-weight: bold;
         order: 1;
+        top: 5px;
+        right: 40px;
     }
     #itemFilters a {
         margin-top: .8em;
@@ -59,9 +67,19 @@
     }
     #linkAccommodation {
         order: 3;
+        color: black;
     }
     #linkActivity {
         order: 4;
+        color: black;
+    }
+    #linkActivity:focus {
+        color: #0198fa;
+        border-top: none;
+    }
+    #register:focus {
+        color: #0198fa;
+        border-top: none;
     }
     #bottomHeader {
         margin: auto;
@@ -156,14 +174,13 @@
     header .nav {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
         flex-wrap: wrap;
         padding: .5em 2.5em;
     }
     #logoPicture {
         order: 1;
-        width: 25%;
-        padding-left: 2.5em;
+        width: 20%;
     }
     ::placeholder {
         color: black;
