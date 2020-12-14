@@ -54,8 +54,10 @@
         right: 40px;
     }
     #itemFilters a {
+        flex-direction: row;
         margin-top: .8em;
         margin-bottom: .2em;
+        margin-left: .5rem;
     }
     #itemFilters h3 {
         margin-right: 3em;
@@ -67,7 +69,7 @@
     #inputField {
         text-decoration: none;
         border-right: none;
-        width: 50%;
+        width: 65%;
     }
     #linkAccommodation {
         order: 3;
@@ -117,6 +119,17 @@
     }
     #bottomHeader {
         margin: auto;
+        padding: 0;
+        padding-left: .5rem;
+    }
+    #titleFilters {
+        margin-bottom: 2px;
+    }
+    #divFilters {
+        display: inline-table;
+    }
+    #accommodation {
+        padding-bottom: 0;
     }
 
     /* MAIN */
@@ -144,6 +157,9 @@
     .famousCard {
         padding: 0;
     }
+    .famousCard img {
+        border: 4px solid white !important;
+    }
     #wrapperAccommodation {
         display: flow-root;
         flex-wrap: wrap;
@@ -158,7 +174,7 @@
     }
     .card img {
         border-radius: 25px 25px 0 0;
-        height:200px;
+        height:120px;
         width:100%;
     }
     #activity .card {
@@ -171,7 +187,7 @@
         flex: 0 0 25%;
     }
     #activity .card img{
-        height: 250px;
+        height: 150px;
     }
     .bigCard {
         margin-top: 1.5em;

@@ -82,6 +82,13 @@ a {
 h4 {
     font-weight: normal;
 }
+#divFilters {
+    display: flex;
+}
+#titleFilters {
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+}
 /* Style the input container */
 #inputContainer {
     display: flex;
@@ -170,6 +177,13 @@ h4 {
 }
 
 /* MAIN */
+/* #wrapperAccommodation img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    border: 5px solid white;
+} */
 main {
 	align-items: center;
 	justify-content: space-between;
@@ -230,6 +244,7 @@ main {
     align-items: center;
 }
 .card img {
+    object-fit: cover;
     border-radius: 25px 25px 0 0;
     height:100px;
     width:100%;
@@ -269,6 +284,7 @@ main {
     padding-left: 0.4em;
 }
 .famousCard img {
+    object-fit: cover;
     border-radius: 25px 0 0 25px;
     height:150px;
     width: 45%;
