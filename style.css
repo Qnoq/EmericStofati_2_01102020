@@ -231,7 +231,6 @@ main {
 }
 .card {
     background-color: white;
-    margin-right: 1.5em;
     margin-top: 1.5em;
     padding: .2em;
     border-radius: 25px;
@@ -300,7 +299,7 @@ main {
 .bottomMiddle {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 #activity a {
     color: black;
@@ -313,9 +312,10 @@ main {
 }
 .bottomMiddle h4 {
     padding-left: 0.5em;
+    margin-bottom: 0;
 }
 .card-1 img {
-    height: 435px;
+    height: 420px;
 }
 .card-2 {
     width: 250px;
@@ -331,7 +331,7 @@ main {
     height: 150px;
 }
 .card-4 img {
-    height: 435px;
+    height: 420px;
 }
 .card-5 {
     width: 250px;
